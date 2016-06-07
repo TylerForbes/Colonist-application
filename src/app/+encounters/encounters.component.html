@@ -1,0 +1,21 @@
+<div class="encounters_app">
+  <div>
+    <ul class="encounters" >
+      <li *ngFor="let encounter of encounters">
+        <div class="individual_encounter">
+           <span class="capitalize">Date Reported:</span> {{ encounter.date }} <br> <span><span class="capitalize"> Reported by:</span> Colonist - {{ encounter.colonist_id }}
+        </span>
+
+        <p><span class="capitalize">Alien Encountered:</span> <span class="Alien">{{ encounter.atype }}</span> <br> <span class="capitalize">Action taken:</span> <span class="Action">{{ encounter.action }}</span></p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<!-- Report Encounter -->
+  <div class="report">
+    <div class="button">
+        <a [routerLink]="['/report']"><button><h2>Report an encounter</h2></button></a>
+    </div>
+  </div>
+</div>

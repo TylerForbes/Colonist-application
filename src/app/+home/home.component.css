@@ -1,0 +1,34 @@
+.home {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+h2 {
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+}
+
+.button button {
+  height:300px;
+  width: 300px;
+  border-radius: 50%;
+  border: solid white 2px;
+  background: url(
+    'http://www.visioninconsciousness.org/Objects/alien-ufo.jpg'
+  ) no-repeat top center;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 23px;
+}

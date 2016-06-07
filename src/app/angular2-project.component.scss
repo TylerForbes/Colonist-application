@@ -1,0 +1,17 @@
+.complete {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: url(
+    'https://marscoin.org/img/marscity.jpg'
+    ) no-repeat center center;
+  background-size: cover;
+}
+h1 {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

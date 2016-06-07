@@ -1,0 +1,74 @@
+.encounters_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.encounters {
+  height: 60vh;
+  width: 50vw;
+  background: url(
+    'http://bowdowntous.com/images/uploads/logos/LCD_SC2Terran.png');
+    background-size: auto 40px;
+    background-repeat: repeat;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-transform: uppercase;
+
+  border: solid black 5px;
+  overflow-y: scroll;
+  list-style: none;
+}
+
+.individual_encounter {
+  border: solid black 1px;
+  background-color: darkred;
+  padding: 5px;
+}
+
+.Alien {
+  font-style: italic;
+}
+
+.Action {
+  font-style: italic;
+}
+
+.capitalize {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.report {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 45vh;
+  background-color: black;
+  border: solid white 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button button {
+  height:25vh;
+  width: 100vw;
+  border-radius: 10%;
+  border: none;
+  background: transparent;
+  color: darkred;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
