@@ -19,4 +19,4 @@ flexboxes
 
 What did I learn?
 
-This project was my third opportunity to exercise the HTML and CSS skills taught throughout the first two weeks of web development training and the first to include self written javascript. Having completed the first project I was feeling confident with regards to styling and was eager to dive into a new layer with regards to coding.
+This was the fifth project for RED ACADEMY and one of the most challenging. After working with React a few weeks ago it felt nice to return to writing javascript. However, the learning curve for Angular2 was initially steeper. 
